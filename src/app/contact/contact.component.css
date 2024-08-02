@@ -8,7 +8,7 @@ form div input{
 }
 form div label {
   color: var(--main-color);
-  transform: translateY(170%);
+  transform: translateY(200%);
   transition: 0.5s transform;
 }
 form div:has(input:not(:placeholder-shown)) label{
