@@ -1,0 +1,10 @@
+nav ul li a {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav {
+  transition: 0.5s padding;
+}
