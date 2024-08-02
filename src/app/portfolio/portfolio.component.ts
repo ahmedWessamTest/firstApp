@@ -1,7 +1,6 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { MainTitleComponent } from "../main-title/main-title.component";
 import { IPortfolio } from '../iportfolio';
-import { log } from 'console';
 
 @Component({
   selector: 'app-portfolio',
