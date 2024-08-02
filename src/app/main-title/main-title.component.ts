@@ -1,4 +1,4 @@
-import { Component, Input, input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-title',
@@ -9,5 +9,5 @@ import { Component, Input, input } from '@angular/core';
 })
 export class MainTitleComponent {
   @Input({required: true}) title!: string;
-  @Input() darkTheme!: boolean;
+  @Input() darkTheme: boolean = false;
 }
